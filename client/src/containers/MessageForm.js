@@ -19,8 +19,8 @@ class MessageForm extends Component {
 					<div className="alert alert-danger">{this.props.errors}</div>				
 				)}
 				<input 
-					type="text" c
-					lassName="form-control" 
+					type="text" 
+					className="form-control" 
 					value={this.state.message} 
 					onChange={e => this.setState({message: e.target.value})} 
 				/>			
